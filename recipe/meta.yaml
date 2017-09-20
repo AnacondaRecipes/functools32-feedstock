@@ -9,7 +9,7 @@ source:
 
 build:
   number: 1
-  skip: True  # [py>30]
+  skip: True  # [py3k]
 
 requirements:
   host:
