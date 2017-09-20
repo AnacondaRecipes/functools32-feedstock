@@ -9,13 +9,14 @@ source:
 
 build:
   number: 1
+  skip: True  # [py>30]
 
 requirements:
   host:
-    - python 2.7.*
+    - python
 
   run:
-    - python 2.7.*
+    - python
 
 test:
   imports:
